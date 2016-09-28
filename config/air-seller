@@ -1,0 +1,26 @@
+{
+    "inputs" : {
+    	"bidRequest" : {
+    		"topic" : "test/air/offer/request",
+    		"commodity" : "air"
+    	},
+    	"reservationRequest" : {
+    		"topic" : "test/air/reservation/request",
+    		"commodity" : "air"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/air/clear/request",
+    		"commodity" : "air"
+    	}
+    },
+    "outputs" : {
+    	"bidResponse" : {
+    		"topic" : "test/air/offer/response",
+    		"commodity" : "air"
+    	},
+    	"reservationResponse" : {
+    		"topic" : "test/air/reservation/response",
+    		"commodity" : "air"
+    	}
+    }
+}

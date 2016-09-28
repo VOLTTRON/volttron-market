@@ -1,0 +1,54 @@
+{
+    "inputs" : {
+    	"sellBidRequest" : {
+    		"topic" : "test/air/offer/request",
+    		"commodity" : "air"
+    	},
+    	"sellReservationRequest" : {
+    		"topic" : "test/air/reservation/request",
+    		"commodity" : "air"
+    	},
+    	"sellClearRequest" : {
+    		"topic" : "test/air/clear/request",
+    		"commodity" : "air"
+    	},
+    	"buyBidRequest" : {
+    		"topic" : "test/electricity/offer/request",
+    		"commodity" : "electricity"
+    	},
+    	"buyReservationRequest" : {
+    		"topic" : "test/electricity/reservation/request",
+    		"commodity" : "electricity"
+    	},
+    	"buyClearRequest" : {
+    		"topic" : "test/electricity/clear/request",
+    		"commodity" : "electricity"
+    	},
+    	"demandCurveResponse" : {
+    		"topic" : "test/air/demandcurve/response",
+    		"commodity" : "air"
+    	}
+    },
+    "outputs" : {
+    	"sellBidResponse" : {
+    		"topic" : "test/air/offer/response",
+    		"commodity" : "air"
+    	},
+    	"sellReservationResponse" : {
+    		"topic" : "test/air/reservation/response",
+    		"commodity" : "air"
+    	},
+    	"demandCurveRequest" : {
+    		"topic" : "test/air/demandcurve/request",
+    		"commodity" : "air"
+    	},
+    	"buyBidResponse" : {
+    		"topic" : "test/electricity/offer/response",
+    		"commodity" : "electricity"
+    	},
+    	"buyReservationResponse" : {
+    		"topic" : "test/electricity/reservation/response",
+    		"commodity" : "electricity"
+    	}
+    }
+}

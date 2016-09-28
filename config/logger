@@ -1,0 +1,13 @@
+{
+    "outputs" : {
+    	"collectOfferRequest" : {
+    		"topic" : "test/collectoffers/request"
+    	},
+    	"collectReservationsRequest" : {
+    		"topic" : "test/collectreservations/request"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/clear/request"
+    	}
+    }
+}

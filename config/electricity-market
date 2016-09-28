@@ -1,0 +1,52 @@
+{
+	"name" : "ElectricityMarket",
+    "inputs" : {
+    	"bidResponse" : {
+    		"topic" : "test/electricity/offer/response",
+    		"commodity" : "electricity"
+    	},
+    	"reservationResponse" : {
+    		"topic" : "test/electricity/reservation/response",
+    		"commodity" : "electricity"
+    	},
+    	"demandCurveRequest" : {
+    		"topic" : "test/electricity/demandcurve/request",
+    		"commodity" : "electricity"
+    	},
+    	"supplyCurveRequest" : {
+    		"topic" : "test/electricity/supplycurve/request",
+    		"commodity" : "electricity"
+    	},
+    	"collectOffersRequest" : {
+    		"topic" : "test/collectoffers/request"
+    	},
+    	"collectReservationsRequest" : {
+    		"topic" : "test/collectreservations/request"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/clear/request"
+    	}
+    },
+    "outputs" : {
+    	"bidRequest" : {
+    		"topic" : "test/electricity/offer/request",
+    		"commodity" : "electricity"
+    	},
+    	"reservationRequest" : {
+    		"topic" : "test/electricity/reservation/request",
+    		"commodity" : "electricity"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/electricity/clear/request",
+    		"commodity" : "electricity"
+    	},
+    	"demandCurveResponse" : {
+    		"topic" : "test/electricity/demandcurve/response",
+    		"commodity" : "electricity"
+    	},
+    	"supplyCurveResponse" : {
+    		"topic" : "test/electricity/supplycurve/response",
+    		"commodity" : "electricity"
+    	}
+    }
+}

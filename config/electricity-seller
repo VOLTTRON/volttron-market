@@ -1,0 +1,26 @@
+{
+    "inputs" : {
+    	"bidRequest" : {
+    		"topic" : "test/electricity/offer/request",
+    		"commodity" : "electricity"
+    	},
+    	"reservationRequest" : {
+    		"topic" : "test/electricity/reservation/request",
+    		"commodity" : "electricity"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/electricity/clear/request",
+    		"commodity" : "electricity"
+    	}
+    },
+    "outputs" : {
+    	"bidResponse" : {
+    		"topic" : "test/electricity/offer/response",
+    		"commodity" : "electricity"
+    	},
+    	"reservationResponse" : {
+    		"topic" : "test/electricity/reservation/response",
+    		"commodity" : "electricity"
+    	}
+    }
+}
