@@ -97,13 +97,6 @@ class BuyerAgent(PubSubAgent):
         self.output('bidResponse', 'value', {'type': Offer.BUY, 'commodity': commodity, 'curve': curve.tuppleize()})
         self.publish(self.output('bidResponse'))
         
-    
-    def onMatchClearRequest(self, peer, sender, bus, topic, headers, message):
-        self.output('shadeSchedule', 'value', 1)
-        self.output('extLightSchedule', 'value', 1)
-        self.publish(self.output('shadeSchedule'))
-        self.publish(self.output('extLightSchedule'))
-        
 
 def main(argv=sys.argv):
     '''Main method called by the eggsecutable.'''

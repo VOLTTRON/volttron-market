@@ -1,4 +1,7 @@
 {
+	"properties" : {
+		"name" : "AirSeller"
+	},
     "inputs" : {
     	"bidRequest" : {
     		"topic" : "test/air/offer/request",

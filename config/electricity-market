@@ -1,5 +1,7 @@
 {
-	"name" : "ElectricityMarket",
+	"properties" : {
+		"name" : "ElectricityMarket"
+	},
     "inputs" : {
     	"bidResponse" : {
     		"topic" : "test/electricity/offer/response",

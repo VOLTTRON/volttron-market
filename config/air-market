@@ -1,5 +1,7 @@
 {
-	"name" : "AirMarket",
+	"properties" : {
+		"name" : "AirMarket"
+	},
     "inputs" : {
     	"bidResponse" : {
     		"topic" : "test/air/offer/response",

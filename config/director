@@ -1,4 +1,7 @@
 {
+	"properties" : {
+		"name" : "Director"
+	},
     "outputs" : {
     	"collectOfferRequest" : {
     		"topic" : "test/collectoffers/request"

@@ -64,7 +64,7 @@ from pnnl.pubsubagent.pubsub.agent import SynchronizingPubSubAgent
 
 import numpy as np
 import matplotlib
-matplotlib.use('Qt4Agg')
+matplotlib.use('TkAgg')
 from matplotlib import pyplot as plt
 
 utils.setup_logging()
@@ -103,10 +103,7 @@ class PlotterAgent(SynchronizingPubSubAgent):
     def plotData(self):
         data = [float('nan')] * len(self.INPUTS)
         for topic in self.INPUTS:
-#             if self.INPUTS[topic].has_key('field'):
-#                 value = self.input(topic)['value'][self.INPUTS[topic]['field']]
-#             else:
-            value = self.input(topic)['value'] 
+            value = self.input(topic, 'value') if self.input(topic) else None
             data[self.topics[topic]] = float(value) if value is not None else float('nan')
         self.plot.update(data)
 
