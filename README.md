@@ -64,8 +64,6 @@ $ . scripts/core/make-agent.sh
 View the log. You will observe the agents log the messages sent back and forth during the market simulation.
 ~~~
 $ tail -f [logfilepath.log]
-~~~
-~~~
 ...
 2016-09-29 10:22:00,724 (director-0.1 7616) pnnl.pubsubagent.pubsub.agent INFO: Sending: test/collectreservations/request [{'collectReservations': True}, {}]
 2016-09-29 10:22:00,727 (market-0.1 7386) market.agent INFO: Received collect reservations request
