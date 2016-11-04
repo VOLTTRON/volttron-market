@@ -1,13 +1,12 @@
 {
-    "outputs" : {
-    	"collectOfferRequest" : {
-    		"topic" : "test/collectoffers/request"
+    "inputs" : {
+    	"Electricity Price" : {
+    		"topic" : "test/electricity/clear/request",
+    		"field" : "price"
     	},
-    	"collectReservationsRequest" : {
-    		"topic" : "test/collectreservations/request"
-    	},
-    	"clearRequest" : {
-    		"topic" : "test/clear/request"
+    	"Air Price" : {
+    		"topic" : "test/air/clear/request",
+    		"field" : "price"
     	}
     }
 }

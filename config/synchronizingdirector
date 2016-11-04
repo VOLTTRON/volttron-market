@@ -1,4 +1,7 @@
 {
+	"properties" : {
+		"name" : "SynchronizingDirector"
+	},
     "outputs" : {
     	"collectOfferRequest" : {
     		"topic" : "test/collectoffers/request"
@@ -9,7 +12,7 @@
     	"clearRequest" : {
     		"topic" : "test/clear/request"
     	}
-    }
+    },
     "inputs" : {
     	"testTopic" : {
     		"topic" : "/test/sometopictowatch"

@@ -1,4 +1,7 @@
 {
+	"properties" : {
+		"name" : "Middleman"
+	},
     "inputs" : {
     	"sellBidRequest" : {
     		"topic" : "test/air/offer/request",

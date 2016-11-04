@@ -1,4 +1,7 @@
 {
+	"properties" : {
+		"name" : "AirBuyer"
+	},
     "inputs" : {
     	"bidRequest" : {
     		"topic" : "test/air/offer/request",
@@ -21,12 +24,6 @@
     	"reservationResponse" : {
     		"topic" : "test/air/reservation/response",
     		"commodity" : "air"
-    	},
-    	"shadeSchedule" : {
-    		"topic" : "test/shadeSchedule"
-    	},
-    	"extLightSchedule" : {
-    		"topic" : "test/extLightSchedule"
     	}
     }
 }
